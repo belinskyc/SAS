@@ -17,17 +17,21 @@ format:
     theme: dark
 ---
 
+## Another take on my goal
+
+-   Have people think about their scripts/models more like academic papers – a living, breathing document that evolves the field
+
 ## Who is Charlie Belinsky
 
 -   Academic specialist for Quantitative Fisheries Center (QFC) since 2016
 
 -   Over two decades experience in Software Engineering and Education
 
--   Outside of work, I like to disappear into a forest with my backpack
+-   Outside of work:
 
-<br>
+    -   I like to disappear for days into a forest with my backpack
 
--   Have you think about your scripts/models more like academic papers – a living, breathing document that evolves the field
+    -   I am desperately trying to learn Vietnamese
 
 ::: notes
 1 Kind of a black box to people outside QFC
@@ -45,10 +49,10 @@ format:
 
 2.  QFC and my roles in it
 
-3.  ***Practical*** steps for changing the way software is developed
+3.  [Practical]{style="color:yellow;"} steps for changing the way models are developed
 
 ::: notes
-3 This is a tested vision or I have a path
+3 Programming and system's level
 :::
 
 ## Career part 1: Motorola
@@ -72,16 +76,17 @@ format:
 
 -   [Develop code that others can properly test]{style="color:yellow;"}
 
--   And this became a huge part of my workflow...
+-   This has become a part of my workflow for my career
 
 -   After class, I worked on military radios
 
-     -   Integrating code from radio, encryption, hardware, controls, receiver...
-     -   Required lots of communication and testing
-
+    -   Integrating code from radio, encryption, hardware, controls, receiver...
+    -   Required lots of communication and testing
 
 ::: notes
 1 Get to later in presentation
+
+8 Spent more time in meetings than coding
 :::
 
 ## Career part 2: High School Teacher
@@ -98,6 +103,8 @@ format:
 2 All other tech class before taught by non-programmer
 
 2 Theme at many ed institutions I will politely push against
+
+8 Education should be designed by those who have this exposure
 :::
 
 ## Teacher: Web Design
@@ -115,6 +122,8 @@ format:
     -   Learned along with my students
 
 ::: notes
+2 Free were terible
+
 2 Like Excel, SAS, SPSS for building models
 
 2 Use Javascript, HTML, CSS
@@ -124,11 +133,13 @@ format:
 
 ## Teacher: Computer Lab
 
--   Theme in my work: inclusivity built in
-
 -   Lab contained all free software
 
     -   Graphics, animation, programming...
+
+-   Theme in my work: lowering barriers to access
+
+    -   Increaing inclusivity
 
 -   Everything I taught could replicated (legally) at home
 
@@ -137,9 +148,9 @@ format:
 ::: notes
 Except Windows
 
-2 Students found a lot of the software
+1 Students found a lot of the software
 
-3 Put on other lab in school
+8 Put on other lab in school
 :::
 
 ## Career part 3: College of Education Design Studio
@@ -186,7 +197,7 @@ Except Windows
 6 Most advanced room on campus (even now...)
 :::
 
-## Room: Accessibility
+## Room: Inclusivity and Accessibility
 
 -   Software Engineering perspective: accessibility is about the proper structuring of technology and using good standards
 
@@ -200,6 +211,8 @@ Except Windows
 0 Point of room was to be inclusive
 
 0 High Horse – Accessibility much more than blue text on red bg
+
+2 You instinctively know program that don't do this well
 
 4 Students already had flexibility to move around and communicate using the Portal
 :::
@@ -236,6 +249,8 @@ Except Windows
 
 ::: notes
 0 Good thing we have goodwill
+
+1 Lisa – the bearer of bad news
 :::
 
 ## Rube Goldberg models
@@ -277,6 +292,12 @@ Model not adaptable
     -   Programming/ Programming education
 
     -   Systems Engineering
+
+::: notes
+0 I am well-positioned to lead these changes
+
+0 specificity in a bit...
+:::
 
 ## Role 1: IT
 
@@ -414,9 +435,9 @@ Model not adaptable
 
 -   Fits well in our current environment: uses R and RStudio, gets placed on GitHub
 
--   Survey code
+-   Survey code we create:
 
-    -   transparent and reproducible
+    -   will be transparent and reproducible
 
     -   can double as a training tool
 
@@ -438,6 +459,8 @@ Model not adaptable
     -   By far the most used system by programmers
 
 ::: notes
+0 Integrates well with RStudio/VSCode
+
 1 Hardest thing I have ever tried to teach
 
 2 Encourages transparency in your code
@@ -445,13 +468,13 @@ Model not adaptable
 
 ## Git/GitHub can be used to
 
--   Collaborate on our models (R, RStudio)
+-   (R/RStudio) Collaborate on our models
 
--   House our survey (RShiny)
+-   (RShiny) House our survey
 
--   [Create class material](https://github.com/QFCatMSU/FW-Bayes){target="_blank"}
+-   (Quarto) [Create class material](https://github.com/QFCatMSU/FW-Bayes){target="_blank"}
 
-    -   [Integrating code and plots into presentations](https://qfcatmsu.github.io/FW-Bayes/week5/lec7.html#/plot-no-pooling-vs.-partial-pooling){target="_blank"} (Quarto)
+    -   [Integrating code and plots into presentations](https://qfcatmsu.github.io/FW-Bayes/week5/lec7.html#/plot-no-pooling-vs.-partial-pooling){target="_blank"}
     -   Accessible documents in PDF and HTML
 
 -   [Create websites](https://qfcatmsu.github.io/FW-Bayes/installation/software_installation.html){target="_blank"}
@@ -468,16 +491,17 @@ Model not adaptable
 
 -   Powerful, but not user-friendly
 
+    -   designed well before the internet
     -   lots of archaic terminology and cryptic errors
 
--   Bugs: free software that is integrated with a lot of other free software
+-   Awkward inegration: free software on top of free software
 
     -   Updates to one can cause a bug in another
 
 ::: notes
 1 How to teach a proper workflow
 
-2 FRom the 1970s
+8 Forces more Terminal usage
 :::
 
 ## But...
@@ -494,7 +518,42 @@ Model not adaptable
 1 Taught the class to figure out how to teach the class
 :::
 
-## Final say
+## Complexity of code
+
+-   We need to unsilo code, make code more transparent and reproducible, and improve collaboration
+-   Let's follow Motorola's example
+-   Thinking about code complexity, which increases with:
+    -   Decision points (if)
+    -   Cycles through data (for)
+    -   Jumping to another place in code (Functions)
+
+::: notes
+Our code is vital to decision making... we need to communicate with our code (partners, legal)
+:::
+
+## Test Cases and Complexity
+
+-   When complexity hits a certain number:
+
+    -   separate the code and create a test case
+
+    -   case has inputs, behavior, and expected outputs
+
+    -   Motorola number: 10, R-world: infinite
+
+-   Breaking your script into manageable and testable chunks
+
+-   R world hides complexity (packages, Tidverse)
+
+::: notes
+The number is flexible – want to separate code in a intuitive manner
+
+Packages are often not transparent and TidyVerse encourages run-on sentences.
+
+Having others test your code, like reading your papers, is vital.
+:::
+
+## One last time regarding my goals...
 
 -   Goal: A system that trains people to be good participants in a programming community
 
