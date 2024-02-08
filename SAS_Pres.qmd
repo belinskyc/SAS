@@ -1,6 +1,7 @@
 ---
 title: Developing a programming environment that integrates collaboration and education
-author: "<br>Charlie Belinsky<br>belinsky@msu.edu<br>Quantitative Fisheries Center"
+author: "<br>Charlie Belinsky<br>belinsky@msu.edu"
+institute: "Quantitative Fisheries Center"
 date-format: "D MMMM YYYY"
 date: today
 title-slide-attributes: 
@@ -13,7 +14,7 @@ format:
     controls: true
     controls-layout: bottom-right
     touch: true
-    theme: simple
+    theme: dark
 ---
 
 ## Who is Charlie Belinsky
@@ -69,20 +70,18 @@ format:
 
 ## Motorola: goal of training
 
--   [**Develop code that others can properly test**]{style="color:darkred;"}
+-   [Develop code that others can properly test]{style="color:yellow;"}
 
-<br>
+-   And this became a huge part of my workflow...
 
--   After that I worked on military radios
+-   After class, I worked on military radios
 
-    -   Integrating code from radio, encryption, hardware, controls, receiver...
+     -   Integrating code from radio, encryption, hardware, controls, receiver...
+     -   Required lots of communication and testing
 
-    -   overwhelming without the class
 
 ::: notes
 1 Get to later in presentation
-
-1 Saw immediate benefits...
 :::
 
 ## Career part 2: High School Teacher
