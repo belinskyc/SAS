@@ -50,7 +50,7 @@ format:
 
 2.  QFC and my roles in it
 
-3.  [Practical]{style="color:yellow;"} steps for changing the way models are developed
+3.  [Realistic]{style="color:yellow;"} steps for changing the way models are developed
 
 ::: notes
 3 Programming and system's level
@@ -62,15 +62,16 @@ format:
 
 -   Started with a 12-week class to learn Software Engineering
 
--   Class was an industry standard
+-   Class was an industry leader
 
 -   A response to the problems in programming community at the time
 
--   Programming was a siloed activity (spoiler alert)
+-   Programming was a siloed activity
 
 -   Not thinking about big picture, integration, collaboration
 
 ::: notes
+5 Spoiler alert
 :::
 
 ## Motorola: goal of training
@@ -132,7 +133,7 @@ format:
 4 Neat to see, Why I liked teaching this class the best
 :::
 
-## Teacher: Computer Lab
+## Computer Lab: Inclusion
 
 -   Lab contained all free software
 
@@ -193,8 +194,6 @@ Except Windows
 -   Added many lines of communication
 
 ::: notes
-3 On wall, center (robots), and small-group stations
-
 6 Most advanced room on campus (even now...)
 :::
 
@@ -330,7 +329,7 @@ Model not adaptable
 
 -   My biggest programming project: the D2L editor (JavaScript)
 
-    -   [https://d2l.msu.edu/d2l/le/content/1247781/viewContent/12802165/View](https://d2l.msu.edu/d2l/le/content/1247781/viewContent/12802165/View){target="_blank"}
+    -   [https://d2l.msu.edu/d2l/home/1247781](https://d2l.msu.edu/d2l/home/1247781){target="_blank"}
 
     -   Allows for far more robust and accessible lessons
 
@@ -348,20 +347,20 @@ Model not adaptable
 
 -   Goal: fill in programming gap and teach best practices
 
+-   History of hiding from these practices (Excel -\> SPSS -\> Tidyverse -\> packages)
+
 -   Programming is a professional field with its own standards and practices
 
-    -   History of hiding from these practices (Excel -\> SPSS -\> Tidyverse -\> packages)
-
-    -   But there is no shortcut to learning how to program
+-   There is no shortcut to learning how to program
 
 ::: notes
-1 Quarto – what this pres is
+1 Quarto – what this pres is (show RStudio)
+
+2 Important to our partners and FW students
 
 2 I have not seen this in any class offering for Natural Resource students
 
-2 Important to out partner and to FW students
-
-3b Like Web Design – need the control
+3 Like Web Design
 
 8 Argue easier to start with basic programming to build complex models than packages/Tidyverse
 :::
@@ -389,7 +388,7 @@ Model not adaptable
 
     -   design for wide audience/ free and secure
 
-    -   has begun – we are putting classes and models up on GitHub
+    -   has begun – we are putting [classes](https://github.com/QFCatMSU/FW-Bayes){target="_blank"} and [models](https://github.com/QFCatMSU/GLAM){target="_blank"} up on GitHub
 
 ::: notes
 0 A lot of future activity
@@ -434,7 +433,7 @@ Model not adaptable
 
 ## Qualtrics –\> RShiny
 
--   <https://shiny.posit.co/>
+-   [https://shiny.posit.co/](https://shiny.posit.co/){target="_blank"}
 
 -   Free
 
@@ -457,11 +456,11 @@ Model not adaptable
 ## Moving to Git/GitHub
 
 -   Big part of the new environment
--   Git/GitHub
+-   Git/GitHub 2 big roles:
     -   Allows you to create a retrievable history of your projects
-    -   Powerful platform for collaboration
-    -   Free
-    -   By far the most used system by programmers
+    -   Powerful platform for ahring and collaboration
+-   Free
+-   By far the most used system by programmers
 
 ::: notes
 0 Integrates well with RStudio/VSCode
@@ -507,6 +506,8 @@ Model not adaptable
 
 ::: notes
 1 How to teach a proper workflow
+
+8 Show RStudio inegration
 
 8 Forces more Terminal usage
 :::
@@ -566,12 +567,11 @@ Model not adaptable
 
 -   Goal: An inclusive and accessible system that provides the necessary tools for a collaborative environment
 
--   A system that the QFC, because of our relationships, is in good position to implement
+-   A system that I have the training to lead and the QFC, because of our relationships, is in good position to implement
 
 -   A system that I hope that people listening here will be supportive of
 
 ::: notes
-3 And I have the training to lead it
 :::
 
 ## Thanks for your time
