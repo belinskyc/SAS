@@ -1,0 +1,22 @@
+h1.title
+{
+  font-size: 65px;
+  color:#18453b !important;
+  line-height: 70px;
+  text-align: center;
+  font-family: Helvetica !important;
+}
+h2, h3, p
+{
+  font-family: verdana !important;
+}
+h2
+{
+  font-family: Helvetica !important;
+}
+p
+{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.2;
+}

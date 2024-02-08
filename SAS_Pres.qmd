@@ -1,0 +1,508 @@
+---
+title: Developing a programming environment that integrates collaboration and education
+author: "<br>Charlie Belinsky<br>belinsky@msu.edu<br>Quantitative Fisheries Center"
+date-format: "D MMMM YYYY"
+date: today
+title-slide-attributes: 
+  data-notes: "2 parts to goals:<br>best practices: keep people from programming black boxes<br>systems eng: Create a system to handle all our programming stuff (models, classes, documentation, training…)"
+format:
+  revealjs:
+    css: presStyle.css
+    slide-number: c/t
+   # multiplex: true
+    controls: true
+    controls-layout: bottom-right
+    touch: true
+    theme: simple
+---
+
+## Who is Charlie Belinsky
+
+-   Academic specialist for Quantitative Fisheries Center (QFC) since 2016
+
+-   Over two decades experience in Software Engineering and Education
+
+-   Outside of work, I like to disappear into a forest with my backpack
+
+<br>
+
+-   Have you think about your scripts/models more like academic papers – a living, breathing document that evolves the field
+
+::: notes
+1 Kind of a black box to people outside QFC
+
+1 Not a researcher, no phd, no FW background
+
+2 Not trying to lob grenades
+
+2 Trying to convince you that incorporate software training in your workflow would be useful
+:::
+
+## Parts to presentation
+
+1.  Cherry-picking my career
+
+2.  QFC and my roles in it
+
+3.  ***Practical*** steps for changing the way software is developed
+
+::: notes
+3 This is a tested vision or I have a path
+:::
+
+## Career part 1: Motorola
+
+-   Most influential week of my career
+
+-   Started with a 12-week class to learn Software Engineering
+
+-   Class was an industry standard
+
+-   A response to the problems in programming community at the time
+
+-   Programming was a siloed activity (spoiler alert)
+
+-   Not thinking about big picture, integration, collaboration
+
+::: notes
+:::
+
+## Motorola: goal of training
+
+-   [**Develop code that others can properly test**]{style="color:darkred;"}
+
+<br>
+
+-   After that I worked on military radios
+
+    -   Integrating code from radio, encryption, hardware, controls, receiver...
+
+    -   overwhelming without the class
+
+::: notes
+1 Get to later in presentation
+
+1 Saw immediate benefits...
+:::
+
+## Career part 2: High School Teacher
+
+-   taught Web Design, Programming, and Physical Science
+
+-   Only technology teacher in the district with a degree in the field
+
+    -   sort of a novelty among students
+
+-   Programming is a discipline with its own standards/best practices
+
+::: notes
+2 All other tech class before taught by non-programmer
+
+2 Theme at many ed institutions I will politely push against
+:::
+
+## Teacher: Web Design
+
+-   Bate-and-switch programming class
+
+-   Tools existed for Web Design but were limited
+
+-   Programming was only way to create robust and interactive web pages
+
+-   Non-programming students gravitated towards programming questions
+
+-   Enjoyed more of a facilitator role instead of presenter
+
+    -   Learned along with my students
+
+::: notes
+2 Like Excel, SAS, SPSS for building models
+
+2 Use Javascript, HTML, CSS
+
+4 Neat to see, Why I liked teaching this class the best
+:::
+
+## Teacher: Computer Lab
+
+-   Theme in my work: inclusivity built in
+
+-   Lab contained all free software
+
+    -   Graphics, animation, programming...
+
+-   Everything I taught could replicated (legally) at home
+
+    -   Not limited to 1 hour/day
+
+::: notes
+Except Windows
+
+2 Students found a lot of the software
+
+3 Put on other lab in school
+:::
+
+## Career part 3: College of Education Design Studio
+
+-   Lab inside the College of Education
+
+-   Our department had a hybrid PhD cohort
+
+-   Mandate: help develop, research, and support an interactive hybrid program
+
+-   Challenge: include online and face-to-face students in synchronous classes with lots of full-class and small-group interaction
+
+::: notes
+4 Online students are faces pasted on a wall
+:::
+
+## A view of the room
+
+-   The room: [https://education.msu.edu/cepse/](https://education.msu.edu/cepse/){target="_blank"}
+
+-   The devices for the online students are Pan-Tilt (and some Zoom)
+
+-   Six small group computer station along the wall
+
+-   But, the room and technology have not been used in years...
+
+## Design Studio: classroom
+
+-   Synchronous-Hybrid classroom for both online and face-to-face students
+
+-   Created multiple spaces in classroom for small group
+
+-   Online students had the ability to "move" around the room
+
+-   Most important part: Design Studio ***Portal*** webpage
+
+-   Allowed quick access to locations in room
+
+-   Added many lines of communication
+
+::: notes
+3 On wall, center (robots), and small-group stations
+
+6 Most advanced room on campus (even now...)
+:::
+
+## Room: Accessibility
+
+-   Software Engineering perspective: accessibility is about the proper structuring of technology and using good standards
+
+-   Done well and a system can easily be adapted
+
+-   Example: hearing-impaired student in online cohort and interpreter in another location
+
+-   Used the Portal to add a back channel to his interpreter
+
+::: notes
+0 Point of room was to be inclusive
+
+0 High Horse – Accessibility much more than blue text on red bg
+
+4 Students already had flexibility to move around and communicate using the Portal
+:::
+
+## 17 years later... QFC
+
+-   Play a pivotal role in managing multi-billion dollar Great Lakes fishing industry
+
+-   We do sustainability assessments for the Great Lakes (models/programming)
+
+-   Established relationship with many agencies that oversea the fishing industry
+
+    -   Partner with many DNR agencies
+
+    -   Collaborate with many indigenous agencies
+
+-   Earned a lot of trust and goodwill with these agencies
+
+::: notes
+0 Part that makes me most nervous
+
+8 relationships are the big deal
+
+8 center of action: lynchpin
+:::
+
+## QFC: Current Issues
+
+-   Finding many models are problematic – they either
+
+    -   don't fit the data
+
+    -   fit the data but are over-tweaked (too complex)
+
+::: notes
+0 Good thing we have goodwill
+:::
+
+## Rube Goldberg models
+
+![](images/Rube_Goldberg's_%20Self-Operating_Napkin%20_(cropped).gif){fig-alt="Rube Goldberg device image from Wikipedia"}
+
+::: notes
+Might match data but small changes to the inputs can cause wild results in the outputs
+
+Model not adaptable
+:::
+
+## Similar to Motorola...
+
+-   People not trained in programming
+
+-   Limited collaboration
+
+-   Code is not well-structured, hard to read, hard to evolve
+
+-   Not a critism: big breakthrough to use programming to develop model
+
+-   QFC, because of our relationships, is well-positioned to make the necessary change in the industry
+
+::: notes
+1 Not thinking about big picture, 10 years in advance
+
+1 Survival coding
+
+4 No grenades
+:::
+
+## My position at the QFC
+
+-   Three Parts:
+
+    -   IT
+
+    -   Programming/ Programming education
+
+    -   Systems Engineering
+
+## Role 1: IT
+
+-   Set up laptops, hardware, and software
+
+-   Designed the QFC videoconferencing room
+
+-   First adapter of new technology
+
+-   Research and train other with new tools like Teams and VSCode
+
+::: notes
+0 Good understand of how tech works
+
+0 No official training
+
+0 Swap meet, building a 386, tweaking software
+
+0 Similar to student who worked on cars
+
+0 But less space and a lot cleaner
+:::
+
+## Role 2: Programming
+
+-   Programming support QFC members with their models
+
+-   My biggest programming project: the D2L editor (JavaScript)
+
+    -   [https://d2l.msu.edu/d2l/le/content/1247781/viewContent/12802165/View](https://d2l.msu.edu/d2l/le/content/1247781/viewContent/12802165/View){target="_blank"}
+
+    -   Allows for far more robust and accessible lessons
+
+    -   Can create both HTML and PDF documents
+
+::: notes
+0 Don't do my own models
+
+2 Show the images, print PDF, right-click, and editor
+:::
+
+## Programming Education
+
+-   Classes in R Programming, GGPlot, Git/GitHub, RMapping, Quarto
+
+-   Goal: fill in programming gap and teach best practices
+
+-   Programming is a professional field with its own standards and practices
+
+    -   History of hiding from these practices (Excel -\> SPSS -\> Tidyverse -\> packages)
+
+    -   But there is no shortcut to learning how to program
+
+::: notes
+2 I have not seen this in any class offering for Natural Resource students
+
+2 Important to out partner and to FW students
+
+3b Like Web Design – need the control
+
+8 Argue easier to start with basic programming to build complex models than packages/Tidyverse
+:::
+
+## Beliefs about programming
+
+-   a huge bottleneck in stock assessment workflow
+-   like academic papers, should be designed to communicate and evolve the field
+    -   don't write a paper that no one can read
+-   a professional discipline (like math, ecology, statatistics) – needs to be treated as such
+-   Not just something you “pick up” – requires training
+
+::: notes
+:::
+
+## Role 3: System Engineer
+
+-   Role 2: Teaching other to code based on best practices
+
+    -   reproducible, testable, transparent
+
+-   Role 3: Create an environment that allows for collaborative programming
+
+    -   includes: classes, models, presentations, training, documentation
+
+    -   design for wide audience/ free and secure
+
+    -   has begun – we are putting classes and models up on GitHub
+
+::: notes
+0 A lot of future activity
+
+8 Roles match my goals (that I reword on an hourly basis)
+
+8 Pass the government IT test
+
+8 DEI and accessibility baked in
+:::
+
+## Next steps...
+
+1.  Replacing Qualtrics
+
+2.  Git/GitHub workshop
+
+3.  Test cases and complexity
+
+::: notes
+0 Already putting our models and classes on GitHub – process of creating an environment has begun and is mentioned in this section
+:::
+
+## Qualtrics
+
+-   Issues
+
+    -   paid software
+
+    -   unintuitive, too much training required
+
+-   Qualtrics collects and analyzes data
+
+    -   Sounds like things we already do...
+    -   All we need is to build a survey
+
+::: notes
+0 This is a small issue but brings out my philosophy from a system's perspective
+
+1 Unintuitive because it does not match any of our current workflow (Office, RStudio)
+:::
+
+## Qualtrics –\> RShiny
+
+-   <https://shiny.posit.co/>
+
+-   Free
+
+-   Fits well in our current environment: uses R and RStudio, gets placed on GitHub
+
+-   Survey code
+
+    -   transparent and reproducible
+
+    -   can double as a training tool
+
+::: notes
+0 For interactive plots, but can do survey
+
+2 Reinforces other tools we use
+
+8 More upfront time than Quatrics but save times in long run and adds relevant training
+:::
+
+## Moving to Git/GitHub
+
+-   Big part of the new environment
+-   Git/GitHub
+    -   Allows you to create a retrievable history of your projects
+    -   Powerful platform for collaboration
+    -   Free
+    -   By far the most used system by programmers
+
+::: notes
+1 Hardest thing I have ever tried to teach
+
+2 Encourages transparency in your code
+:::
+
+## Git/GitHub can be used to
+
+-   Collaborate on our models (R, RStudio)
+
+-   House our survey (RShiny)
+
+-   [Create class material](https://github.com/QFCatMSU/FW-Bayes){target="_blank"}
+
+    -   [Integrating code and plots into presentations](https://qfcatmsu.github.io/FW-Bayes/week5/lec7.html#/plot-no-pooling-vs.-partial-pooling){target="_blank"} (Quarto)
+    -   Accessible documents in PDF and HTML
+
+-   [Create websites](https://qfcatmsu.github.io/FW-Bayes/installation/software_installation.html){target="_blank"}
+
+-   Share documents between classes or at a conference
+
+::: notes
+8 Cannot do this with D2L or even OneDrive... can also more easily share with government employees
+:::
+
+## Git/GitHub issues
+
+-   Education: big change to programming workflow
+
+-   Powerful, but not user-friendly
+
+    -   lots of archaic terminology and cryptic errors
+
+-   Bugs: free software that is integrated with a lot of other free software
+
+    -   Updates to one can cause a bug in another
+
+::: notes
+1 How to teach a proper workflow
+
+2 FRom the 1970s
+:::
+
+## But...
+
+-   Just did workshop and still processing it
+
+-   Hardest training I have ever attempted to teach
+
+-   However, I am confident all problems are tractable
+
+-   In due time, we can create effective training
+
+::: notes
+1 Taught the class to figure out how to teach the class
+:::
+
+## Final say
+
+-   Goal: A system that trains people to be good participants in a programming community
+
+-   Goal: A system that provides the necessary tools for a collaborative environment
+
+-   A system that the QFC, because of our relationships, is in good position to implement
+
+-   A system that I hope that people listening here will be supportive of
+
+## Thanks for your time
