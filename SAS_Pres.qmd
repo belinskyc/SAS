@@ -10,6 +10,7 @@ format:
   revealjs:
     css: presStyle.css
     slide-number: c/t
+    showNotes: false
    # multiplex: true
     controls: true
     controls-layout: bottom-right
@@ -273,6 +274,8 @@ Model not adaptable
 
 -   Not a critism: big breakthrough to use programming to develop model
 
+-   Need to move foward
+
 -   QFC, because of our relationships, is well-positioned to make the necessary change in the industry
 
 ::: notes
@@ -352,6 +355,8 @@ Model not adaptable
     -   But there is no shortcut to learning how to program
 
 ::: notes
+1 Quarto – what this pres is
+
 2 I have not seen this in any class offering for Natural Resource students
 
 2 Important to out partner and to FW students
@@ -389,11 +394,11 @@ Model not adaptable
 ::: notes
 0 A lot of future activity
 
-8 Roles match my goals (that I reword on an hourly basis)
-
 8 Pass the government IT test
 
 8 DEI and accessibility baked in
+
+8 Roles match my goals (that I reword on an hourly basis)
 :::
 
 ## Next steps...
@@ -408,7 +413,7 @@ Model not adaptable
 0 Already putting our models and classes on GitHub – process of creating an environment has begun and is mentioned in this section
 :::
 
-## Qualtrics
+## Qualtrics (surveys)
 
 -   Issues
 
@@ -482,6 +487,8 @@ Model not adaptable
 -   Share documents between classes or at a conference
 
 ::: notes
+3 Unlike PowerPoint – big deal
+
 8 Cannot do this with D2L or even OneDrive... can also more easily share with government employees
 :::
 
@@ -518,7 +525,7 @@ Model not adaptable
 1 Taught the class to figure out how to teach the class
 :::
 
-## Complexity of code
+## Test Cases: Complexity of code
 
 -   We need to unsilo code, make code more transparent and reproducible, and improve collaboration
 -   Let's follow Motorola's example
@@ -528,7 +535,7 @@ Model not adaptable
     -   Jumping to another place in code (Functions)
 
 ::: notes
-Our code is vital to decision making... we need to communicate with our code (partners, legal)
+0 Our code is vital to decision making... we need to communicate with our code (partners, legal)
 :::
 
 ## Test Cases and Complexity
@@ -546,21 +553,25 @@ Our code is vital to decision making... we need to communicate with our code (pa
 -   R world hides complexity (packages, Tidverse)
 
 ::: notes
-The number is flexible – want to separate code in a intuitive manner
+1 The number is flexible – want to separate code in a intuitive manner
 
-Packages are often not transparent and TidyVerse encourages run-on sentences.
+8 Packages are often not transparent and TidyVerse encourages run-on sentences.
 
-Having others test your code, like reading your papers, is vital.
+8 Having others test your code, like reading your papers, is vital.
 :::
 
 ## One last time regarding my goals...
 
 -   Goal: A system that trains people to be good participants in a programming community
 
--   Goal: A system that provides the necessary tools for a collaborative environment
+-   Goal: An inclusive and accessible system that provides the necessary tools for a collaborative environment
 
 -   A system that the QFC, because of our relationships, is in good position to implement
 
 -   A system that I hope that people listening here will be supportive of
+
+::: notes
+3 And I have the training to lead it
+:::
 
 ## Thanks for your time
